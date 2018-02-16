@@ -1,0 +1,188 @@
+@font-face
+{
+	font-family: Montserrat; /*including font*/
+	src: url(Montserrat-Regular.otf);
+}
+body
+{
+	margin: 0 auto;
+}
+a 
+{
+	text-decoration: none;
+	color: #494848;
+}
+.text
+{
+	font-family: Montserrat;
+	color: #494848;
+	text-transform: uppercase;
+}
+.header
+{
+	width: 100%;
+}
+.header__top-line
+{
+	width: 100%;
+	font: 12px Montserrat;	
+}
+.header__top-line--star-1
+{
+	margin-left: 39%;
+}
+.header__top-line--phrase-1
+{
+	
+	text-align: center; 
+}
+.header__top-line--phrase-2
+{
+	float: right;
+	padding-right: 40px;
+}
+.header__logo
+{
+	float: left;
+	width: 40%;
+	padding-left: 40px;
+	margin: 0;
+}
+.header__logo--picture
+{
+	width: 192px;
+	height: 63px;
+}
+.header__logo--text
+{
+	margin: 0;
+	padding-left: 47px;
+	font-size: 23px;
+	color: #a6a6a6;
+	text-transform: none; 
+}
+.header__menu
+{
+	float: right;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.header__menu--paragraph
+{
+	list-style-type: none;
+	float: left;
+	font-size: 14px;
+	margin-right: 40px;
+}
+.header__menu--effect
+{
+	opacity: 1;
+}
+.header__menu--effect:hover
+{
+	opacity: 0.6;
+}
+.content
+{
+	position: relative;
+}
+.content__block
+{
+	top: 140px;
+	position: relative;
+}
+.content__block__frame
+{
+	position: absolute;
+	width: 93.7%;
+
+	left: 40px;
+}
+.content__block__text
+{
+	top: -14px;
+	left: 33%;
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+	vertical-align: middle;
+	background-color: #ffffff;
+	font-size: 29px;
+}
+.arrow
+{
+	position: absolute;
+	top: 300px;
+	opacity: 0.4;
+	cursor: pointer;
+}
+.arrow:hover
+{
+	opacity: 1;
+}
+.content__block__arrow-left
+{
+	left: 140px;
+}
+.content__block__arrow-left:hover
+{
+	left: 143px;
+}
+.content__block__arrow-right
+{
+	right: 140px;
+}
+.content__block__arrow-right:hover
+{
+	right: 143px;
+}
+.content__block__book
+{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	padding-top: 40px;
+}
+.button
+{
+	border: none;
+	border-radius: 10px;
+	background-color: #0094ac;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	text-transform: uppercase;
+	font: 12px Montserrat;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+.button:hover
+{
+	background-color:  #006e71;
+}
+.content__buttons
+{
+	top: 500px;
+}
+.content__buttons__remind-me-later
+{
+	position: absolute;
+	width: 168px;
+	height: 45px;
+	top: 730px;
+}
+.content__buttons__order-button
+{
+	position: absolute;
+	width: 218px;
+	height: 45px;
+	top: 730px;
+	left: 61.8%;
+}
+.footer
+{
+	top: 850px;
+	position: relative;
+	background-color: #6ca3a6;
+	height: 80px;
+	width: 100%;
+}
