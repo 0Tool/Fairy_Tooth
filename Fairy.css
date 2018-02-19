@@ -20,7 +20,6 @@ a
 }
 .header
 {
-	width: 100%;
 }
 .header__top-line
 {
@@ -38,12 +37,12 @@ a
 }
 .header__top-line--phrase-2
 {
-	float: right;
-	padding-right: 40px;
+	position: absolute;
+	right: 40px;
 }
 .header__logo
 {
-	float: left;
+	position: absolute;
 	width: 40%;
 	padding-left: 40px;
 	margin: 0;
@@ -63,16 +62,17 @@ a
 }
 .header__menu
 {
-	float: right;
+	position: absolute;
 	margin: 0 auto;
 	padding-top: 20px;
+	right: 40px;
 }
 .header__menu--paragraph
 {
 	list-style-type: none;
-	float: left;
+	display: inline;
 	font-size: 14px;
-	margin-right: 40px;
+	margin-left: 40px;
 }
 .header__menu--effect
 {
@@ -108,6 +108,7 @@ a
 	vertical-align: middle;
 	background-color: #ffffff;
 	font-size: 29px;
+	font-weight: normal;
 }
 .arrow
 {
@@ -169,6 +170,7 @@ a
 	width: 168px;
 	height: 45px;
 	top: 730px;
+	left: 45%;
 }
 .content__buttons__order-button
 {
@@ -182,7 +184,63 @@ a
 {
 	top: 850px;
 	position: relative;
-	background-color: #6ca3a6;
+	background-color: #47a5a7;
 	height: 80px;
 	width: 100%;
+}
+.footer__shreck
+{
+	position: absolute;
+	bottom: 78px;
+	left: 168px;
+}
+.footer__logo--picture
+{
+	position: absolute;
+	top: 5px;
+	left: 40px;
+}
+.footer__logo--text
+{
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	top: 47px;
+	left: 40px;
+}
+.footer__menu--currency
+{
+	position: absolute;
+	color: white;
+	text-transform: none;
+	top: 27px;
+	font-size: 14px;
+	right: 770px;
+}
+.footer__menu__list
+{
+	position: absolute;
+	list-style-type: none;
+	right: 160px;
+	top: 12px;
+	cursor: pointer;
+}
+.footer__menu__list--item
+{
+	display: inline;
+	color: white;
+	font-size: 14px;
+	margin-left: 25px;
+	opacity: 1;
+}
+.footer__menu__list--item:hover
+{
+	opacity: 0.6;
+}
+.footer__social
+{
+	position: absolute;
+	right: 40px;
+	top: 25px;
+	cursor: default;
 }
