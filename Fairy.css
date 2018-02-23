@@ -226,28 +226,39 @@ a
 .footer__menu__currency__dropdown--button
 {
 	position: absolute;
-	left: 525px;
+	left: 530px;
 	top: 10px;
-	width: 100px;
-	height: 30px;
-	background-color: #3498DB;
-    color: white;
+	width: 90px;
+	height: 28px;
+	color: #494848;
+	border-radius: 6px;
+	background-color: white;
+	border-color: #a9a9a9;
+	border: none;
     font-size: 16px;
-    border: none;
     cursor: pointer;
     z-index: 1;
 }
 .footer__menu__currency__dropdown--button:hover, .footer__menu__currency__dropdown--button:focus
 {
-	background-color: #2980B9;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.footer__menu__currency__button--arrow
+{
+	position: absolute;
+	padding-top: 7px;
+	padding-left: 10px;
 }
 .footer__menu__currency__dropdown--list
 {
 	display: none;
     position: absolute;
+    left: 530px;
+    top: -30px;
     background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 90px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
     z-index: 1;
 }
 .footer__menu__currency__dropdown--list a
@@ -290,4 +301,12 @@ a
 	right: 40px;
 	top: 25px;
 	cursor: default;
+}
+.footer__social--item
+{
+	opacity: 1;
+}
+.footer__social--item:hover
+{
+	opacity: 0.6;
 }

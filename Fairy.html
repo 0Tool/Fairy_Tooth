@@ -16,7 +16,7 @@
 			<span class="text header__top-line--phrase-2">free shipping</span>
 		</div>
 		<div class="header__logo">
-			<a href=""><img class="header__logo--picture" src="headerLogo.png"></a>
+			<a href=""><img onclick="dropDownFunction()" class="header__logo--picture" src="headerLogo.png"></a>
 			<p class="text header__logo--text">Share Beautiful Stories</p>
 		</div>
 		<div class="header__menu">
@@ -51,10 +51,9 @@
 			<div class="footer__menu__currency">
 				<span class="text footer__menu__currency--text">Currency:</span>
 				<div class="footer__menu__currency__dropdown">
-					<button onclick="dropDownFunction()" class="footer__menu__currency__dropdown--button"></button>
-					<div id="drop" class="footer__menu__currency__dropdown--list">
+					<button onclick="dropDownFunction()" class="text footer__menu__currency__dropdown--button">usd&nbsp;<img onclick="dropDownFunction()" class="footer__menu__currency__button--arrow" src="currencyArrow.png"></button>
+					<div id="drop" class="text footer__menu__currency__dropdown--list">
 						<a class="text" href="">eur</a>
-						<a class="text" href="">usd</a>
 						<a class="text" href="">uah</a>
 					</div>
 				</div>
@@ -68,9 +67,9 @@
 			</ul>
 		</div>
 		<div class="footer__social">
-			<a href=""><img src="facebook.png" alt=""></a>
-			<a href=""><img src="twitter.png" alt=""></a>
-			<a href=""><img src="instagram.png" alt=""></a>
+			<a href=""><img class="footer__social--item" src="facebook.png" alt=""></a>
+			<a href=""><img class="footer__social--item" src="twitter.png" alt=""></a>
+			<a href=""><img class="footer__social--item" src="instagram.png" alt=""></a>
 		</div>
 	</div>
 </body>
